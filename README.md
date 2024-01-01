@@ -1,23 +1,18 @@
 
+
 ```markdown
 # Neural Network Classification for Dependent Variable Prediction
 
 This project utilizes a neural network for classification tasks to predict a dependent variable. The neural network is implemented using the Keras library and trained on a dataset called `dep_clean.csv`. The project includes data analysis, model training, evaluation, and prediction steps.
 
-## Table of Contents
-- [Description](#description)
-- [Usage](#usage)
-- [Dependencies](#dependencies)
-- [License](#license)
-
 ## Description
-The project implements a neural network model to classify data and predict a dependent variable. It follows these main steps:
+The main objective of this project is to build and train a neural network model to predict a dependent variable based on a set of input features. The project follows these steps:
 
 1. Data Analysis: The `dep_clean.csv` dataset is loaded using pandas. The project includes a heatmap visualization using seaborn to analyze the correlations between the features.
 
-2. Model Training: The project uses the Keras library to build a neural network model. It consists of two dense layers with ReLU activation functions and a final dense layer with a sigmoid activation function. The model is compiled with the Adam optimizer and trained on the training dataset.
+2. Model Training: The project utilizes the Keras library to build a neural network model. The model consists of two dense layers with ReLU activation functions and a final dense layer with a sigmoid activation function. The model is compiled with the Adam optimizer and trained on the training dataset.
 
-3. Model Evaluation: The model's performance is evaluated using the training and testing datasets. The project calculates and displays the training and testing accuracy scores.
+3. Model Evaluation: The performance of the model is evaluated using the training and testing datasets. The project calculates and displays the training and testing accuracy scores.
 
 4. Prediction: The trained model is used to make predictions on new data. An example prediction is provided using a sample input data point (`man`), and the prediction probabilities are visualized using a bar plot.
 
@@ -50,5 +45,4 @@ The project requires the following dependencies:
 
 Make sure to install these dependencies using pip or any other package manager before running the project.
 
-## License
-This project is licensed under the [MIT License](LICENSE).
+```
