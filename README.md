@@ -1,4 +1,3 @@
-Certainly! Here's a README.md file you can use for your project:
 
 ```markdown
 # Neural Network Classification for Dependent Variable Prediction
@@ -53,5 +52,3 @@ Make sure to install these dependencies using pip or any other package manager b
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
-
-```
